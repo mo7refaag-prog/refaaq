@@ -1,0 +1,36 @@
+{
+  "name": "رفاق - صندوق حي أم القرى، بورتسودان",
+  "short_name": "رفاق",
+  "description": "تطبيق صندوق جمعية رفاق التعاونية - حي أم القرى، بورتسودان لإدارة الاشتراكات الشهرية والمصروفات والأصول",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#05140f",
+  "theme_color": "#065f46",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "ar",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/share-target",
+    "method": "POST",
+    "enctype": "multipart/form-data",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url",
+      "files": [
+        {
+          "name": "receipt",
+          "accept": ["image/*"]
+        }
+      ]
+    }
+  }
+}
