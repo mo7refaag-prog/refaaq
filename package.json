@@ -25,6 +25,7 @@
     "tesseract.js": "^7.0.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.16.7",
     "@tailwindcss/postcss": "^4.3.5",
     "@tailwindcss/turbopack": "4.3.3",
     "@types/canvas-confetti": "^1.9.0",
